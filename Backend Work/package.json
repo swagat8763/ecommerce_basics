@@ -1,0 +1,27 @@
+{
+  "name": "ecommerce-fashion",
+  "version": "1.0.0",
+  "description": "Microservice for ecommerce-fashion",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "chai-http": "^4.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.3",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.2.1",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.4.0",
+    "nyc": "^10.0.0",
+    "sinon": "^10.0.0"
+  }
+}
